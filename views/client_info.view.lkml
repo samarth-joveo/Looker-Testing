@@ -1,5 +1,5 @@
 view: client_info {
-  derived_table: {sql:select distinct id,name,vale from idp.modelled.campaign_management_clients where agency_id = 'uber';;}
+  derived_table: {sql:select distinct id,name,value from idp.modelled.campaign_management_clients where agency_id = 'uber';;}
   dimension: id {
     primary_key: yes
     type :  string
