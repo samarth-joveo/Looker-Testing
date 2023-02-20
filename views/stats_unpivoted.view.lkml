@@ -62,7 +62,7 @@ group by client_id,coalesce(dbg_original_publisher,publisher_id))
     sql:  ${TABLE}.value ;;
 
   }
-  measure: cta {
+  measure: Value {
     type: sum
     sql: ${filter_val} ;;
   }
