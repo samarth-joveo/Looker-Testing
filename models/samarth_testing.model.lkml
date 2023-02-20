@@ -27,3 +27,4 @@ explore : stats {
 }
 
 explore: html_sample {}
+explore: stats_unpivoted {}
