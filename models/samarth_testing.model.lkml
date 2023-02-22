@@ -27,4 +27,10 @@ explore : stats {
 }
 
 explore: html_sample {}
-explore: stats_unpivoted {}
+explore: stats_unpivoted {
+  always_filter: {
+    filters: [
+      filter_metric: "Clicks"
+    ]
+  }
+}
